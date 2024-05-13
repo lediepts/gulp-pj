@@ -1,0 +1,10 @@
+doctype html
+html(lang=lang)
+  head
+    block css
+    link(rel="stylesheet" href="/style.css")
+  body
+    include /components/header
+    block body
+    include /components/footer
+    script(src="/bundle.js" type="module") 
